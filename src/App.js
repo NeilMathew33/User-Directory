@@ -5,6 +5,7 @@ import ViewAllUsers from './Components/ViewAllUsers';
 import AddUser from './Components/AddUser'
 import UserNavbar from './Components/UserNavbar';
 import Login from './Components/Login';
+import SignUp from './Components/Signup';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path= "/Add" element= {<AddUser />}/>
       <Route path= "/ViewAll" element= {<ViewAllUsers />}/>
       <Route path= "/" element= {<Login />}/>
+      <Route path= "/Signup" element= {<SignUp />}/>
     </Routes>
     </BrowserRouter>
   );
